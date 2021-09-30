@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+  #main-container {
+    padding: 1rem 2rem;
+  }
+
+header {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 7rem;
+}
+
+#lrow-1 {
+background-color: whitesmoke;
+flex: 4;
+
+display: flex;
+flex-direction: row;
+}
+
+.lrow1-item {
+  flex: 1;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+background-color: #118ab2;
+border-radius: 1rem;
+}
+
+#lrow-1-item-3 {
+  flex-grow: 6;
+  flex-shrink: 10;
+}
+
+#lrow-2 {
+background-color: whitesmoke;
+padding: 0.3rem;
+flex: 3;
+display: flex;
+flex-direction: row;
+}
+  .lrow2-item {
+    flex: 1;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: cyan;
+  }
+
+    main {
+      margin-top: 2rem;
+      border: 1px solid black;
+    }
+
+    #centro {
+      display: flex;
+      flex-direction: row;
+      min-height: 60vh;
+      padding: 0.3em;
+      flex-wrap: wrap;
+    }
+
+    .centro-item {
+      flex: 1;
+      display: flex;
+      border: 1px solid #14213d;
+      flex-direction: row;
+      min-width: 35rem;
+    }
+
+    #centro-item-1 {
+      flex: 9;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .centro-item-123 {
+      background-color: #b5179e;
+      border: 1px solid whitesmoke;
+      border-radius: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 0.5rem;
+    }
+
+  #centro-item-row-1{
+    flex-basis: 20rem;
+  }
+
+#centro-item-row-2{
+ flex-basis: 18rem;
+}
+
+#centro-item-row-3{
+ flex-basis: 12rem;
+}
+
+    #centro-item-2 {
+      flex: 8;
+      display: flex;
+      flex-direction: row;
+      padding: 0 0.5rem;
+      min-width: 35rem;
+      min-height: 50vh;
+    }
+
+      .item-2-column {
+        flex: 1;
+        flex-direction: row;
+        background-color: #cdb4db;
+        border: 1px solid whitesmoke;
+        border-radius: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #item-2-column-2 {
+        flex: 1;
+        display: flex;
+        background-color: #ffafcc;
+      }      
